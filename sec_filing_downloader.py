@@ -51,7 +51,7 @@ from bs4 import BeautifulSoup
 # CONFIG — edit these for each run
 # ==========================================================================
 
-USER_AGENT = "Ved Abhyankar vedangabhyankar1@gmail.com"   # REQUIRED by SEC — use your own name+email
+USER_AGENT = "Name username@email.com"   # REQUIRED by SEC — use your own name+email
 
 COMPANY_NAME = "Frontline"          # used only if CIK is unknown (see find_cik)
 CIK = "0000913290"                  # Frontline plc — set to None to auto-lookup by COMPANY_NAME
